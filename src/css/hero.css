@@ -1,74 +1,17 @@
 
-body {/*
-    font-family: "Roboto", sans-serif;
-    color: #434455;*/
-    background-color: #fff;
-  }
-  
-  ul,
-  ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    margin: 0;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  .container {
-    width: 1280px;
-    padding: 0 65px;
-    margin: 0 auto;
-  }
-  .images-team {
-    display: block;
-  }
-  ul,
-  ol {
-    margin: 0;
-    padding: 0;
-  }
-
-
-/* Styles for Mobile devices */
-/*.container {
-    min-width: 320px;
-    max-width: 375px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  /* Styles for Tablet devices */
-  @media only screen and (min-width: 768px) {
-    .container {
-      max-width: 768px;
-      padding: 0 32px;
-    }
-  }
-  /* Styles for Desktop devices */
-  @media only screen and (min-width: 1200px) {
-    .container {
-      max-width: 1280px;
-      padding: 0 65px;
-    }
-  }
-
-
-
 
 
 .section-h{
-    padding: 80px 65px 0px 65px;
-    width: 1280px;
-    height: 889px;
+    flex-direction: column;
+    display: flex;
+    padding: 80px 0 40px 0;
+}
+
+.hero-list{
+    
+    width: 1150px;
+    display: flex;
+    align-items: baseline;
 }
 
 .hero-h{
@@ -76,9 +19,10 @@ body {/*
     font-family: "Gilroy", sans-serif;
 font-weight: 600;
 font-size: 72px;
-line-height: 0.875;
+line-height: 0.88;
 letter-spacing: -0.02em;
 color: #0c0c0c;
+margin-right: 407px;
 }
 
 .hero-h-h{
@@ -86,6 +30,7 @@ color: #0c0c0c;
 }
 
 .hero-p{
+    margin-right: 407px;
     width: 480px;
     margin-top: 20px;
     font-family: "Gilroy", sans-serif;
@@ -97,6 +42,39 @@ color: rgba(12, 12, 12, 0.7);
 }
 
 .section-img-p{
-    width: 146px;
-    margin-left: 407px;
+    padding: 80px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.team-list{
+    display: flex;
+    padding-bottom: 189px;
+}
+
+.team-item{
+
+}
+
+.img-item{
+
+}
+
+.team-item-p{
+
+}
+
+.background{
+    background-image: linear-gradient(
+        rgba(12, 12, 12, 0.2)
+      ),
+      url("../img/hero/Rounded rectangle-min.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+width: 100%;
+    border-radius: 50px;
+    height: 500px;
 }
