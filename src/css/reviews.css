@@ -1,24 +1,13 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-ul,
-ol {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
 .reviews-section {
   margin: 0 auto;
   padding: 60px 0;
   width: 100%;
+}
+
+.site-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .images {
@@ -28,15 +17,16 @@ ol {
   background-color: #f3f3f3;
 }
 
-.hero {
+.reviews-hero {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
+  box-sizing: border-box;
   padding: 32px 36px;
 }
 
-.john {
+.icons {
   border-radius: 100%;
   stroke-width: 2px;
   stroke: #fbfbfb;
