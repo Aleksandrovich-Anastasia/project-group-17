@@ -1,9 +1,29 @@
 .advertisement {
   border-radius: 30px;
   background-color: #383737;
+  padding: 60px 28px;
+  max-width: 335px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      rgba(12, 12, 12, 0.7),
+      rgba(12, 12, 12, 0.7)
+    ),
+    url(/img/advertisement.img/advert-bi-mob-min.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-resolution: 2dppx) {
+  .advertisement {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/img/advertisement.img/advert-bi-mob@2x-min.jpg);
+  }
 }
 .section-title {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
