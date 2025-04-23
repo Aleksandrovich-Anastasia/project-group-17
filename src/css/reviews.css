@@ -7,7 +7,7 @@
 .site-flex {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 20px;
 }
 
@@ -62,9 +62,19 @@
   color: rgba(12, 12, 12, 0.4);
 }
 
-@media (max-width: 768px) {
-  .victoria,
+.victoria,
+.anastasia {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .victoria {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .anastasia {
-    display: none;
+    display: flex;
   }
 }
