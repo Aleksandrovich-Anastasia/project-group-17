@@ -29,12 +29,12 @@
   overflow: hidden;
 }
 .advertisement .section-title {
-  font-weight: 600;
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
   color: #fbfbfb;
   margin-bottom: 28px;
+  hyphens: auto;
 }
 .advertisement .title-part {
   color: rgba(251, 251, 251, 0.5);
