@@ -3,7 +3,8 @@
   background-color: #383737;
   padding: 60px 28px;
   max-width: 335px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url(/img/advertisement.img/advert-bi-mob.png);
   background-color: #0c0c0c;
   background-repeat: no-repeat;
