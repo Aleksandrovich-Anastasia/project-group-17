@@ -1,47 +1,3 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-button {
-  cursor: pointer;
-}
 picture {
   display: block;
   flex-shrink: 0;
@@ -49,27 +5,8 @@ picture {
   height: auto;
 }
 
-.container {
-  max-width: 375px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 65px;
-  }
-}
-
 /*--------------------------section-contact-us--------------------------*/
+
 .title-contact-us {
   font-weight: 600;
   font-size: 32px;
@@ -80,11 +17,12 @@ picture {
 }
 
 .contact-us-subtitle {
+  height: 78px;
   text-align: start;
-  margin-bottom: 16px;
+  padding-bottom: 28px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.3;
+  line-height: 1.28;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
@@ -101,9 +39,10 @@ picture {
 
 .contact-us-p-form {
   width: 335px;
+  height: 512px;
   background: #f3f3f3;
   border-radius: 30px;
-  padding: 48px 28px;
+  padding: 50px 28px;
   margin-bottom: 20px;
 }
 
@@ -138,7 +77,7 @@ picture {
 
 .contact-us-textarea {
   resize: none;
-  height: 120px;
+  height: 84px;
   padding-top: 12px;
   padding-left: 14px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -183,6 +122,7 @@ picture {
   margin-bottom: 18px;
 }
 .contact-us-input-wraptxtarea {
+  height: 84px;
   margin-bottom: 28px;
 }
 
@@ -204,6 +144,34 @@ picture {
 }
 
 @media screen and (min-width: 768px) {
+  .btn-contact-us-send {
+    width: 160px;
+    height: 52px;
+  }
+
+  .contact-us-textarea {
+    width: 460px;
+    height: 90px;
+  }
+  .contact-us-input {
+    padding: 12px 14px;
+    width: 460px;
+    height: 52px;
+  }
+
+  .contact-us-input-wraptxtarea {
+    margin-bottom: 32px;
+    width: 460px;
+    height: 90px;
+  }
+
+  .contact-us-subtitle {
+    height: 72px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    padding-bottom: 32px;
+  }
   .div-contact-us {
     width: 768px;
   }
@@ -247,7 +215,7 @@ picture {
     border-radius: 50px;
     width: 580px;
     height: 556px;
-    padding: 84px 65px;
+    padding: 50px 60px;
     margin: 0 auto;
   }
 
