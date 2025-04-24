@@ -42,3 +42,14 @@
 .nav-link.active::after {
   background: #747bff;
 }
+
+.burger-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.icon-burger {
+  display: block;
+  fill: #0C0C0C;
+}
