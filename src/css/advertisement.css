@@ -4,23 +4,15 @@
   padding: 60px 28px;
   max-width: 335px;
   margin: 0 auto;
-  background-image: linear-gradient(
-      rgba(12, 12, 12, 0.8),
-      rgba(12, 12, 12, 0.8)
-    ),
-    url(/img/advertisement.img/advert-bi-mob-min.jpg);
-
+  background-image: url(/img/advertisement.img/advert-bi-mob.png);
+  background-color: #0c0c0c;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 @media (min-resolution: 2dppx) {
   .advertisement {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.8),
-        rgba(46, 47, 66, 0.8)
-      ),
-      url(/img/advertisement.img/advert-bi-mob@2x-min.jpg);
+    background-image: url(/img/advertisement.img/advert-bi-mob@2x.png);
   }
 }
 .advertisement .section-title {
@@ -42,8 +34,7 @@
   background-color: transparent;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.3;
-  text-align: center;
+  line-height: 1.29;
   color: #fbfbfb;
   flex-shrink: 0;
 }
@@ -51,13 +42,10 @@
   .advertisement {
     max-width: 768px;
     padding: 80px 64px;
-    background-image: linear-gradient(
-        rgba(12, 12, 12, 0.8),
-        rgba(12, 12, 12, 0.8)
-      ),
-      url(/img/advertisement.img/advert-bi-tab-min.jpg);
+    background-image: url(/img/advertisement.img/advert-bi-tab.png);
   }
   .advertisement .section-title {
+    max-width: 576px;
     font-size: 48px;
     line-height: 0.9;
     letter-spacing: -0.02em;
@@ -66,40 +54,28 @@
 }
 @media (min-width: 768px) and (min-resolution: 2dppx) {
   .advertisement {
-    background-image: linear-gradient(
-        rgba(12, 12, 12, 0.8),
-        rgba(12, 12, 12, 0.8)
-      ),
-      url(/img/advertisement.img/advert-bi-tab@2x-min.jpg);
+    background-image: url(/img/advertisement.img/advert-bi-tab@2x.png);
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .advertisement {
     max-width: 1150px;
     padding: 80px;
-    background-image: linear-gradient(
-        rgba(12, 12, 12, 0.8),
-        rgba(12, 12, 12, 0.8)
-      ),
-      url(/img/advertisement.img/advert-bi-desk-min.jpg);
+    background-image: url(/img/advertisement.img/advert-bi-desk.png);
   }
   .advertisement .container {
     display: flex;
   }
   .advertisement .section-title {
-    width: 690px;
+    max-width: 690px;
     margin-bottom: 0;
   }
   .contact-btn {
     margin-left: auto;
   }
 }
-@media (min-width: 1158px) and (min-resolution: 2dppx) {
+@media (min-width: 1280px) and (min-resolution: 2dppx) {
   .advertisement {
-    background-image: linear-gradient(
-        rgba(12, 12, 12, 0.8),
-        rgba(12, 12, 12, 0.8)
-      ),
-      url(/img/advertisement.img/advert-bi-desk@2x-min.jpg);
+    background-image: url(/img/advertisement.img/advert-bi-desk@2x.png);
   }
 }
