@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   /* justify-content: center; */
-  gap: 20px;
+  gap: 16px;
 }
 
-.images {
+.reviews-images {
   width: 335px;
   height: 262px;
   border-radius: 30px;
@@ -28,30 +28,20 @@
   margin-bottom: 24px;
 }
 
-.title {
-  font-weight: 600;
+.section-title {
   font-size: 32px;
   line-height: 1;
-  letter-spacing: -0.02em;
-  color: #0c0c0c;
   margin-bottom: 24px;
 }
 
-.text-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: -0.02em;
+.text {
   text-align: center;
-  color: #0c0c0c;
   margin-bottom: 8px;
 }
 
 .text-list {
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
-  letter-spacing: -0.02em;
   text-align: center;
   color: rgba(12, 12, 12, 0.4);
 }
@@ -66,12 +56,12 @@
     display: flex;
   }
 
-  .title {
+  .section-title {
     font-size: 48px;
     line-height: 0.91667;
   }
 
-  .text-name {
+  .text {
     font-size: 18px;
     line-height: 1.1;
   }
@@ -81,7 +71,7 @@
     line-height: 1.25;
   }
 
-  .images {
+  .reviews-images {
     width: 344px;
     height: 272px;
   }
@@ -92,8 +82,12 @@
     display: flex;
   }
 
-  .images {
+  .reviews-images {
     width: 370px;
     height: 272px;
+  }
+
+  .site-flex {
+    gap: 20px;
   }
 }
