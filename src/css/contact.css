@@ -169,7 +169,6 @@ picture {
     padding: 50px 122px;
     margin-bottom: 40px;
   }
-
   .contact-us-form {
     margin-bottom: 32px;
   }
@@ -192,6 +191,9 @@ picture {
     height: 556px;
   }
 
+  .contact-us-subtitle {
+    max-width: 460px;
+  }
   .contact-us-subtitle {
     max-width: 460px;
   }
