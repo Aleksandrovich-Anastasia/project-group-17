@@ -6,7 +6,14 @@ picture {
 }
 
 /*--------------------------section-contact-us--------------------------*/
-
+.title-contact-us {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
 .contact-us-subtitle {
   height: 78px;
   text-align: start;
@@ -26,12 +33,6 @@ picture {
   background-color: #ffffff;
   width: 100%;
   height: 100%;
-
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 1;
-  letter-spacing: -0.02em;
-  color: #0c0c0c;
 }
 
 .contact-us-p-form {
@@ -41,11 +42,14 @@ picture {
   border-radius: 30px;
   padding: 50px 28px;
   margin-bottom: 20px;
-  margin-top: 24px;
+}
+.contact-us-field {
+  width: 279px;
+  height: 42px;
 }
 
 .contact-us-input {
-  padding: 12px 14px;
+  padding-left: 14px;
   outline: transparent;
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -55,13 +59,8 @@ picture {
   color: #0c0c0c;
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
-  width: 279px;
-  height: 42px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 18px;
+  width: 100%;
+  height: 100%;
 }
 
 .contact-us-input:focus {
@@ -72,10 +71,13 @@ picture {
 .contact-us-input:disabled {
   background-color: #ffffff;
 }
+.contact-us-input-wraptxtarea {
+  width: 279px;
+  height: 84px;
+}
 
 .contact-us-textarea {
   resize: none;
-  height: 84px;
   padding-top: 12px;
   padding-left: 14px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -85,10 +87,10 @@ picture {
   color: #0c0c0c;
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
-  width: 279px;
-  height: 84px;
   outline: transparent;
   background-color: transparent;
+  width: 100%;
+  height: 100%;
 }
 .contact-us-textarea:focus {
   border-color: #3350e9;
@@ -116,13 +118,6 @@ picture {
 .btn-contact-us-send:focus {
   background-color: #1f3cd4;
 }
-.contact-us-field {
-  margin-bottom: 18px;
-}
-.contact-us-input-wraptxtarea {
-  height: 84px;
-  margin-bottom: 28px;
-}
 
 .container-img-contact-us {
   border-radius: 30px;
@@ -130,6 +125,14 @@ picture {
   height: 512px;
   margin: 0 auto;
   padding: 0;
+}
+.contact-us-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 28px;
 }
 
 @media screen and (min-width: 768px) {
@@ -139,17 +142,20 @@ picture {
   }
 
   .contact-us-textarea {
-    width: 460px;
-    height: 90px;
+    padding-top: 16px;
+    padding-left: 16px;
   }
-  .contact-us-input {
-    padding: 12px 14px;
+  .contact-us-field {
     width: 460px;
     height: 52px;
   }
+  .contact-us-input {
+    font-size: 16px;
+    line-height: 1.25;
+    padding-left: 16px;
+  }
 
   .contact-us-input-wraptxtarea {
-    margin-bottom: 32px;
     width: 460px;
     height: 90px;
   }
@@ -161,15 +167,10 @@ picture {
     line-height: 1.25;
     padding-bottom: 32px;
   }
-  .div-contact-us {
-    width: 768px;
-    font-weight: 600;
+  .title-contact-us {
     font-size: 48px;
     line-height: 0.91;
-    color: #0c0c0c;
-  }
-  .img {
-    display: none;
+    margin-bottom: 40px;
   }
 
   .container-img-contact-us {
@@ -183,10 +184,12 @@ picture {
     width: 704px;
     height: 556px;
     margin-bottom: 40px;
-    margin-top: 40px;
   }
   .section-contact-us {
     padding: 40px 0;
+  }
+  .contact-us-form {
+    margin-bottom: 32px;
   }
 }
 
@@ -194,12 +197,13 @@ picture {
   .div-contact-us {
     width: 1280px;
   }
+
   .flex {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    margin-top: 40px;
   }
+
   .contact-us-p-form {
     border-radius: 50px;
     width: 580px;
