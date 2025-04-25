@@ -14,13 +14,79 @@
   background-position: center;
   background-size: cover;
   position: fixed;
+  /* opacity: 0;
+  pointer-events: none;
+  visibility: hidden; */
 }
+
+/* .is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+} */
+
 .menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 20px;
   right: 20px;
-  /* background-color: transparent; */
+  padding: 0;
+  background-color: transparent;
+  border: none;
 }
 .menu-close-icon {
-  fill: red;
+  fill: #fbfbfb;
+}
+
+.menu-close-icon:hover,
+.menu-close-icon:focus {
+  fill: #3350e9;
+}
+
+.menu-list {
+  margin-bottom: 260px;
+}
+
+.menu-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.menu-link {
+  display: flex;
+  font-size: 14px;
+  line-height: 1.29;
+  justify-content: center;
+  color: #fbfbfb;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #3350e9;
+}
+
+.menu-soc-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.menu-soc-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
+}
+.menu-soc-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-soc-icon {
+  fill: #fbfbfb;
 }
