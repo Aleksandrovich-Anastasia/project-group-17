@@ -3,8 +3,107 @@
 2)
 */
 
+/* Styles for Mobile devices */
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
 
+
+
+.hero-list {
+  margin-right: 40px;
+  width: 335px;
+
+  align-items: baseline;
+}
+
+.section-h {
+  flex-direction: column;
+  display: flex;
+  margin-bottom: 28px;
+}
+
+.hero-h {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+}
+
+.hero-h-h {
+  color: #3350e9;
+}
+
+.hero-p {
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+}
+
+.section-img-p {
+
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.team-list {
+  display: flex;
+
+  width: 335px;
+}
+
+.team-item {
+  min-width: 56px;
+  min-height: 56px;
+}
+
+.img-1 {
+  position: relative;
+  flex-shrink: 1;
+}
+.img-2 {
+  position: relative;
+  flex-shrink: 1;
+  left: -15px;
+}
+
+.img-3 {
+  position: relative;
+  flex-shrink: 1;
+  left: -32px;
+}
+
+.img-item {
+  border-radius: 100%;
+  background-color: transparent;
+}
+
+.a-scroll {
+  font-size: 20px;
+  line-height: 1;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+
+}
+
+.hero-background{
+  border-radius: 30px;
+
+}
+
+.hero-background::before{
+  background: rgba(12, 12, 12, 0.2);
+}
+
+.hero-img{
+  width: 100%;
+height: 336px;
+  object-fit: cover;
+}
 
 
 
@@ -16,12 +115,112 @@
         margin-top: 40px;
         margin-bottom: 40px;
       }
-
     .container {
       max-width: 768px;
       padding: 0 32px;
     }
+
+    .section-h {
+      flex-direction: column;
+      display: flex;
+      margin-right: 0;
+    }
+    
+    .hero-list {
+      margin-bottom: 40px;
+      width: 704px;
+      display: flex;
+      align-items: baseline;
+    }
+    
+    .hero-h {
+      font-weight: 600;
+      font-size: 70px;
+      line-height: 0.86;
+    }
+    
+    .hero-h-h {
+      color: #3350e9;
+    }
+    
+    .hero-p {
+      width: 480px;
+      padding-top: 20px;
+      font-weight: 500;
+      color: rgba(12, 12, 12, 0.7);
+    }
+    
+    .section-img-p {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    
+    .team-list {
+      display: flex;
+      padding-bottom: 180px;
+      align-items: flex-end;
+      width: 136px;
+    }
+    
+    .team-item {
+      min-width: 56px;
+      min-height: 56px;
+    }
+    
+    .img-1 {
+      position: relative;
+      flex-shrink: 1;
+    }
+    .img-2 {
+      position: relative;
+      flex-shrink: 1;
+      left: -15px;
+    }
+    
+    .img-3 {
+      position: relative;
+      flex-shrink: 1;
+      left: -32px;
+    }
+    
+    .img-item {
+      border-radius: 100%;
+      background-color: transparent;
+    }
+    
+    .a-scroll {
+      font-size: 20px;
+      line-height: 1;
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+    
+    }
+    
+    .hero-background{
+      border-radius: 50px;
+      width: 704px;
+    }
+
+    .hero-background::before{
+      background: rgba(12, 12, 12, 0.2);
+    }
+    
+    .hero-img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
   }
+
+
+
+
+
+
+
+
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
     .section-general {
@@ -32,7 +231,6 @@
 .section-h {
   flex-direction: column;
   display: flex;
-  padding: 80px 0 40px 0;
   margin-right: 407px;
 }
 
@@ -44,12 +242,10 @@
 
 .hero-h {
   width: 597px;
-  font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 72px;
   line-height: 0.88;
-  letter-spacing: -0.02em;
-  color: #0c0c0c;
+
 
 }
 
@@ -59,12 +255,8 @@
 
 .hero-p {
   width: 480px;
-  margin-top: 20px;
-  font-family: 'Gilroy', sans-serif;
+  padding-top: 20px;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
 
@@ -110,28 +302,27 @@
 }
 
 .a-scroll {
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 500;
   font-size: 20px;
   line-height: 1;
-  letter-spacing: -0.02em;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  color: #0c0c0c;
+
 }
 
-.background {
-  background-image: linear-gradient(rgba(12, 12, 12, 0.2)),
-url('../img/hero/Rounded rectangle-min.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  max-width: 1280px;
-  width: 100%;
+.hero-background{
   border-radius: 50px;
+  width: 1150px;
   height: 500px;
-  display: block;
+
+}
+.hero-background::before{
+  background: rgba(12, 12, 12, 0.2);
+}
+
+.hero-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 }
 
