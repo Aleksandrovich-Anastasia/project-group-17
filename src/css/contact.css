@@ -6,19 +6,14 @@ picture {
 }
 
 /*--------------------------section-contact-us--------------------------*/
-.title-contact-us {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 1;
+.section-title {
   letter-spacing: -0.02em;
   color: #0c0c0c;
   margin-bottom: 24px;
 }
-.contact-us-subtitle {
+.text {
   text-align: start;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.28;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
   margin-bottom: 28px;
@@ -147,15 +142,11 @@ picture {
     height: 90px;
   }
 
-  .contact-us-subtitle {
+  .text {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.25;
     margin-bottom: 32px;
   }
-  .title-contact-us {
-    font-size: 48px;
-    line-height: 0.91;
+  .section-title {
     margin-bottom: 40px;
   }
 
@@ -191,10 +182,7 @@ picture {
     height: 556px;
   }
 
-  .contact-us-subtitle {
-    max-width: 460px;
-  }
-  .contact-us-subtitle {
+  .text {
     max-width: 460px;
   }
 }
