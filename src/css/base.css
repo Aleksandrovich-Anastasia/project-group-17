@@ -4,11 +4,13 @@ body {
   letter-spacing: -0.02em;
   color: #0c0c0c;
 }
+
 .section-title {
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
 }
+
 .text {
   font-size: 14px;
   line-height: 1.29;
@@ -19,21 +21,25 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .section-general {
     margin-top: 40px;
     margin-bottom: 40px;
   }
+
   .section-title {
     font-size: 48px;
     line-height: 0.92;
   }
+
   .text {
     font-size: 16px;
     line-height: 1.25;
   }
 }
+
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
   .section-general {
