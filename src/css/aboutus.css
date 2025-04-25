@@ -1,59 +1,57 @@
 .about-us {
-    display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: column;
-        gap: 28px;
-        background: #f3f3f3;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 28px;
 }
 
 .about {
-
+  background-color: #f3f3f3;
 }
 
 .us {
-    font-weight: 600;
-        font-size: 32px;
-        line-height: 1;
-        letter-spacing: -0.02em;
-        margin-bottom: 28px;
-        color: #0c0c0c;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 28px;
+  color: #0c0c0c;
 }
 
 .welcome {
-    display: flex;
-    width: 295px;
-        height: 278px;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: row;
-        font-weight: 500;
-            font-size: 14px;
-            line-height: 1.28571;
-            letter-spacing: -0.02em;
-            color: rgba(12, 12, 12, 0.7);
+  display: flex;
+  width: 295px;
+  height: 278px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
 }
 
 .welcome:hover {
-    background: #1f3cd4;
+  background: #1f3cd4;
 }
 
 .vc {
-    padding: 15px 38px;
-width: 160px;
-    height: 48px;
-    border-radius: 16px;
-    font-weight: 500;
-        font-size: 14px;
-        line-height: 1.28571;
-        text-align: center;
-        color: #fbfbfb;
-        background: #3350e9;
+  padding: 15px 38px;
+  width: 160px;
+  height: 48px;
+  border-radius: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+  background: #3350e9;
 }
 
 .premium {
-
 }
 
 /* .about-us {
