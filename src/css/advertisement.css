@@ -1,7 +1,7 @@
 .advertisement {
   border-radius: 30px;
   background-color: #383737;
-  padding: 60px 28px;
+  /* padding: 60px 28px; */
   max-width: 335px;
   margin-left: auto;
   margin-right: auto;
@@ -29,9 +29,6 @@
   overflow: hidden;
 }
 .advertisement .section-title {
-  font-size: 32px;
-  line-height: 1;
-  letter-spacing: -0.02em;
   color: #fbfbfb;
   margin-bottom: 28px;
   hyphens: auto;
@@ -50,6 +47,10 @@
   line-height: 1.29;
   color: #fbfbfb;
   flex-shrink: 0;
+}
+.contact-btn:hover,
+.contact-btn:focus {
+  background-color: #fbfbfb;
 }
 @media screen and (min-width: 768px) {
   .advertisement {
