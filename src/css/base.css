@@ -6,12 +6,13 @@ body {
 }
 .section-title {
   font-weight: 600;
-  font-size: 48px;
-  line-height: 0.92;
+  font-size: 32px;
+  line-height: 1;
 }
 .text {
-  font-size: 16px;
-  line-height: 1.25;
+  font-size: 14px;
+  line-height: 1.29;
+  color: rgba(12, 12, 12, 0.4);
 }
 
 .section-general {
@@ -23,6 +24,14 @@ body {
   .section-general {
     margin-top: 40px;
     margin-bottom: 40px;
+  }
+  .section-title {
+    font-size: 48px;
+    line-height: 0.92;
+  }
+  .text {
+    font-size: 16px;
+    line-height: 1.25;
   }
 }
 /* Styles for Desktop devices */
