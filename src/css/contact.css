@@ -103,8 +103,8 @@ picture {
 
 .container-img-contact-us {
   border-radius: 30px;
-  width: 335px;
-  height: 512px;
+  max-width: 335px;
+  height: auto;
   margin: 0 auto;
   padding: 0;
 }
@@ -152,8 +152,8 @@ picture {
 
   .container-img-contact-us {
     border-radius: 50px;
-    width: 704px;
-    height: 556px;
+    max-width: 704px;
+    height: auto;
   }
   .contact-us-p-form {
     border-radius: 50px;
@@ -178,8 +178,8 @@ picture {
   }
 
   .container-img-contact-us {
-    width: 530px;
-    height: 556px;
+    max-width: 530px;
+    height: auto;
   }
 
   .text {
