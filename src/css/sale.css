@@ -1,271 +1,267 @@
 body {
-    min-width: 320px;
+  min-width: 320px;
 }
 
 .container-sale {
-    max-width: 375px;
-    margin: 0 auto;
-    width: 100%;
-    text-align: left;
-    padding: 0px 20px;
-
+  max-width: 375px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: left;
+  padding: 0px 20px;
 }
 
 .title-sale {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .image-big {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
 }
 
 .list-sale {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 
-    height: 80px;
-
+  height: 80px;
 }
 
 .item-sale {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80px;
-    height: 80px;
-    background-color: #f3f3f3;
-    border: 1px solid rgba(12, 12, 12, 0.05);
-    border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: #f3f3f3;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 20px;
 }
 
 .image-watch {
-    max-width: 52px;
+  max-width: 52px;
 }
 
 .img-watch {
-    max-width: 235px;
+  max-width: 235px;
 }
 
 .item-watch {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 335px;
-    background-color: #f3f3f3;
-    border: 1px solid rgba(12, 12, 12, 0.05);
-    border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 335px;
+  background-color: #f3f3f3;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 20px;
 }
 
 .product-card {
-
-    border-radius: 50px;
-    background: #3350e9;
-    padding: 48px 28px;
+  border-radius: 50px;
+  background: #3350e9;
+  padding: 48px 28px;
 }
 
 .subtitle-sale {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.17;
-    color: #fbfbfb;
-    margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  color: #fbfbfb;
+  margin-bottom: 10px;
 }
 
 .prod-tag {
-    color: rgba(251, 251, 251, 0.5);
-    margin-bottom: 20px;
+  color: rgba(251, 251, 251, 0.5);
+  margin-bottom: 20px;
 }
 
 .price-container {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-bottom: 28px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 28px;
 }
 
 .carrent-price {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.25;
-    color: #fbfbfb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    width: 68px;
-    height: 32px;
-    background: rgba(251, 251, 251, 0.1);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 68px;
+  height: 32px;
+  background: rgba(251, 251, 251, 0.1);
 }
 
 .old-price {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    text-decoration: line-through;
-    color: rgba(251, 251, 251, 0.5);
-    padding-left: 9px;
-    justify-content: center;
-    align-items: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+  padding-left: 9px;
+  justify-content: center;
+  align-items: center;
 }
 
 .description {
-    color: rgba(251, 251, 251, 0.7);
-    margin-bottom: 28px;
+  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 28px;
 }
 
 .modifications {
-    width: 297px;
-    height: 112px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+  width: 297px;
+  height: 112px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .tags {
-    display: flex;
-    align-items: flex-start;
-    justify-content: left;
-    flex-wrap: wrap;
-    gap: 8px;
-    width: 279px;
-    height: 112px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 279px;
+  height: 112px;
 }
 
 .tag {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    gap: 4px;
-    border: 1px solid rgba(251, 251, 251, 0.2);
-    border-radius: 8px;
-    padding: 8px 12px;
-    font-size: 12px;
-    line-height: 1.33;
-    color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 4px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
 }
 
 @media screen and (min-width: 768px) {
-    .container-sale {
-        padding: 0 32px;
-        max-width: 768px;
-    }
+  .container-sale {
+    padding: 0 32px;
+    max-width: 768px;
+  }
 
-    .title-sale {
-        margin-bottom: 40px;
-    }
+  .title-sale {
+    margin-bottom: 40px;
+  }
 
-    .item-sale {
-        width: 132px;
-        height: 132px;
-    }
+  .item-sale {
+    width: 132px;
+    height: 132px;
+  }
 
-    .image-big {
-        flex-wrap: nowrap;
-        width: 704px;
-        margin-bottom: 40px;
-    }
+  .image-big {
+    flex-wrap: nowrap;
+    width: 704px;
+    margin-bottom: 40px;
+  }
 
-    .list-sale {
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: column;
-        gap: 10px;
-        width: 132px;
-        height: 558px;
-    }
+  .list-sale {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: 132px;
+    height: 558px;
+  }
 
-    .image-watch {
-        max-width: 96px;
-    }
+  .image-watch {
+    max-width: 96px;
+  }
 
-    .img-watch {
-        max-width: 328px;
-    }
+  .img-watch {
+    max-width: 328px;
+  }
 
-    .item-watch {
-        width: 552px;
-        height: 558px;
-        gap: 40px;
-    }
+  .item-watch {
+    width: 552px;
+    height: 558px;
+    gap: 40px;
+  }
 
-    .product-card {
-        width: 704px;
-        height: 518px;
-        padding: 60px;
-    }
+  .product-card {
+    width: 704px;
+    height: 518px;
+    padding: 60px;
+  }
 
-    .subtitle-sale {
-        font-size: 32px;
-        line-height: 1.13;
-        width: 436px;
-        height: 72px;
-    }
+  .subtitle-sale {
+    font-size: 32px;
+    line-height: 1.13;
+    width: 436px;
+    height: 72px;
+  }
 
-    .carrent-price {
-        font-size: 20px;
-        line-height: 1;
-    }
+  .carrent-price {
+    font-size: 20px;
+    line-height: 1;
+  }
 
-    .description {
-        margin-bottom: 40px;
-    }
+  .description {
+    margin-bottom: 40px;
+  }
 
-    .modifications {
-        width: 398px;
-        height: 76px;
+  .modifications {
+    width: 398px;
+    height: 76px;
+  }
 
-    }
-
-    .tags {
-        width: 398px;
-        height: 76px;
-        gap: 8px;
-    }
+  .tags {
+    width: 398px;
+    height: 76px;
+    gap: 8px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .container-sale {
-        padding: 0 65px;
-        max-width: 1280px;
-    }
+  .container-sale {
+    padding: 0 65px;
+    max-width: 1280px;
+  }
 
-    .image-little {
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        width: 1150px;
-        height: 558px;
-        gap: 40px;
-    }
+  .image-little {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 1150px;
+    height: 558px;
+    gap: 40px;
+  }
 
-    .image-big {
-        margin: 0;
-        width: 580px;
-    }
+  .image-big {
+    margin: 0;
+    width: 580px;
+  }
 
-    .item-watch {
-        width: 428px;
-    }
+  .item-watch {
+    width: 428px;
+  }
 
-    .product-card {
-        width: 530px;
-        height: 558px;
-        padding: 60px;
-    }
+  .product-card {
+    width: 530px;
+    height: 558px;
+    padding: 60px;
+  }
 
-    .description {
-        width: 410px;
-    }
+  .description {
+    width: 410px;
+  }
 
-    .subtitle-sale {
-        width: 389px;
-        height: 72px;
-    }
+  .subtitle-sale {
+    width: 389px;
+    height: 72px;
+  }
 }
