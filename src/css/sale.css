@@ -3,7 +3,7 @@ body {
 }
 
 .container-sale {
-    max-width: 335px;
+    max-width: 375px;
     margin: 0 auto;
     width: 100%;
     text-align: left;
@@ -12,11 +12,6 @@ body {
 }
 
 .title-sale {
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
     margin-bottom: 24px;
 }
 
@@ -34,7 +29,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 5px;
-    width: 335px;
+
     height: 80px;
 
 }
@@ -50,6 +45,14 @@ body {
     border-radius: 20px;
 }
 
+.image-watch {
+    max-width: 52px;
+}
+
+.img-watch {
+    max-width: 235px;
+}
+
 .item-watch {
     display: flex;
     align-items: center;
@@ -61,6 +64,7 @@ body {
 }
 
 .product-card {
+
     border-radius: 50px;
     background: #3350e9;
     padding: 48px 28px;
@@ -70,15 +74,11 @@ body {
     font-weight: 600;
     font-size: 24px;
     line-height: 1.17;
-    letter-spacing: -0.02em;
     color: #fbfbfb;
     margin-bottom: 10px;
 }
 
 .prod-tag {
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
     color: rgba(251, 251, 251, 0.5);
     margin-bottom: 20px;
 }
@@ -94,7 +94,6 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.25;
-    letter-spacing: -0.02em;
     color: #fbfbfb;
     display: flex;
     justify-content: center;
@@ -109,7 +108,6 @@ body {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
-    letter-spacing: -0.02em;
     text-decoration: line-through;
     color: rgba(251, 251, 251, 0.5);
     padding-left: 9px;
@@ -118,10 +116,6 @@ body {
 }
 
 .description {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
     color: rgba(251, 251, 251, 0.7);
     margin-bottom: 28px;
 }
@@ -152,7 +146,6 @@ body {
     border: 1px solid rgba(251, 251, 251, 0.2);
     border-radius: 8px;
     padding: 8px 12px;
-    font-weight: 500;
     font-size: 12px;
     line-height: 1.33;
     color: #fbfbfb;
@@ -161,12 +154,10 @@ body {
 @media screen and (min-width: 768px) {
     .container-sale {
         padding: 0 32px;
-        max-width: 704px;
+        max-width: 768px;
     }
 
     .title-sale {
-        font-size: 48px;
-        line-height: 0.92;
         margin-bottom: 40px;
     }
 
@@ -190,6 +181,14 @@ body {
         height: 558px;
     }
 
+    .image-watch {
+        max-width: 96px;
+    }
+
+    .img-watch {
+        max-width: 328px;
+    }
+
     .item-watch {
         width: 552px;
         height: 558px;
@@ -197,8 +196,8 @@ body {
     }
 
     .product-card {
-        width: 584px;
-        height: 398px;
+        width: 704px;
+        height: 518px;
         padding: 60px;
     }
 
@@ -210,14 +209,11 @@ body {
     }
 
     .carrent-price {
-
         font-size: 20px;
         line-height: 1;
     }
 
     .description {
-        font-size: 16px;
-        line-height: 1.25;
         margin-bottom: 40px;
     }
 
@@ -231,11 +227,6 @@ body {
         width: 398px;
         height: 76px;
         gap: 8px;
-    }
-
-    .tag {
-        font-size: 14px;
-        line-height: 1.29;
     }
 }
 
@@ -264,8 +255,8 @@ body {
     }
 
     .product-card {
-        width: 410px;
-        height: 438px;
+        width: 530px;
+        height: 558px;
         padding: 60px;
     }
 
