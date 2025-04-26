@@ -134,12 +134,13 @@
 
   .about-us {
     max-width: 1280px;
-    height: 5401px;
+    height: 532px;
   }
 
   .about {
     width: 580px;
     min-height: 532px;
+    margin-bottom: auto;
   }
 
   .welcome {
