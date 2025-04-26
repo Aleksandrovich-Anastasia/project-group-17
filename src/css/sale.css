@@ -23,14 +23,12 @@
 }
 
 .item-sale {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 80px;
     height: 80px;
     background-color: #f3f3f3;
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 20px;
+    padding: 13px 14px;
 }
 
 .image-watch {
@@ -145,6 +143,7 @@
     .item-sale {
         width: 132px;
         height: 132px;
+        padding: 16px 18px;
     }
 
     .image-box {
@@ -204,6 +203,11 @@
         width: 398px;
         height: 76px;
         gap: 8px;
+    }
+
+    .tag {
+        font-size: 14px;
+        line-height: 1.29;
     }
 
     .price-container {
