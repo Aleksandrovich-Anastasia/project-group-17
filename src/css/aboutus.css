@@ -31,11 +31,14 @@
 .welcome {
   display: flex;
   width: 295px;
-  height: 278px;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
+  gap: 20px;
+}
+
+.p {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
@@ -60,6 +63,11 @@
   color: #fbfbfb;
   background: #3350e9;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.view {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .premium {
@@ -94,20 +102,28 @@
     width: 704px;
     min-height: 512px;
     padding: 80px 60px;
-    margin-bottom: 40px;
+    padding-bottom: 0;
   }
 
   .us {
     font-size: 48px;
     line-height: 0.91667;
+    margin-bottom: 40px;
   }
 
   .welcome {
     width: 584px;
     height: 160px;
-    margin-bottom: 60px;
+  }
+
+  .p {
     font-size: 16px;
     line-height: 1.25;
+  }
+
+  .view {
+    padding-top: 60px;
+    padding-bottom: 80px;
   }
 
   .premium {
@@ -146,7 +162,10 @@
   .welcome {
     width: 460px;
     height: 200px;
-    margin-bottom: 40px;
+  }
+
+  .view {
+    padding-top: 40px;
   }
 
   .premium {
