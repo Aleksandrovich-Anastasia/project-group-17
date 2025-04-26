@@ -1,20 +1,13 @@
-body {
-  min-width: 320px;
-}
-
 .container-sale {
-  max-width: 375px;
-  margin: 0 auto;
   width: 100%;
   text-align: left;
-  padding: 0px 20px;
 }
 
 .title-sale {
   margin-bottom: 24px;
 }
 
-.image-big {
+.image-box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,10 +18,7 @@ body {
 
 .list-sale {
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 5px;
-
   height: 80px;
 }
 
@@ -59,6 +49,7 @@ body {
   background-color: #f3f3f3;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 20px;
+  padding: 50px;
 }
 
 .product-card {
@@ -107,7 +98,7 @@ body {
   line-height: 1.17;
   text-decoration: line-through;
   color: rgba(251, 251, 251, 0.5);
-  padding-left: 9px;
+  margin-left: 9px;
   justify-content: center;
   align-items: center;
 }
@@ -119,7 +110,6 @@ body {
 
 .modifications {
   width: 297px;
-  height: 112px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -139,7 +129,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: left;
-  gap: 4px;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 8px;
   padding: 8px 12px;
@@ -149,11 +138,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .container-sale {
-    padding: 0 32px;
-    max-width: 768px;
-  }
-
   .title-sale {
     margin-bottom: 40px;
   }
@@ -163,15 +147,13 @@ body {
     height: 132px;
   }
 
-  .image-big {
+  .image-box {
     flex-wrap: nowrap;
     width: 704px;
     margin-bottom: 40px;
   }
 
   .list-sale {
-    align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: column;
     gap: 10px;
     width: 132px;
@@ -194,7 +176,6 @@ body {
 
   .product-card {
     width: 704px;
-    height: 518px;
     padding: 60px;
   }
 
@@ -224,15 +205,14 @@ body {
     height: 76px;
     gap: 8px;
   }
+
+  .price-container {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-  .container-sale {
-    padding: 0 65px;
-    max-width: 1280px;
-  }
-
-  .image-little {
+  .image-sale {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -241,7 +221,7 @@ body {
     gap: 40px;
   }
 
-  .image-big {
+  .image-box {
     margin: 0;
     width: 580px;
   }
