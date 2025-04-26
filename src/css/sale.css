@@ -76,7 +76,7 @@
     margin-bottom: 28px;
 }
 
-.carrent-price {
+.current-price {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.25;
@@ -185,7 +185,7 @@
         height: 72px;
     }
 
-    .carrent-price {
+    .current-price {
         font-size: 20px;
         line-height: 1;
     }
