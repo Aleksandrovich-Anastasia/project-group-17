@@ -58,11 +58,6 @@
   fill: #fbfbfb;
 }
 
-.menu-close-icon:hover,
-.menu-close-icon:focus {
-  fill: #3350e9;
-}
-
 .menu-item:not(:last-child) {
   margin-bottom: 24px;
 }
@@ -73,11 +68,22 @@
   line-height: 1.29;
   justify-content: center;
   color: #fbfbfb;
+  flex-direction: column;
+  align-items: center;
 }
 
-.menu-link:hover,
-.menu-link:focus {
-  color: #3350e9;
+.menu-link::after {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #3350e9;
+  border-radius: 100%;
+  opacity: 0;
+}
+
+.menu-link:hover::after {
+  opacity: 1;
 }
 
 .menu-soc-list {
