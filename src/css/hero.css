@@ -37,12 +37,14 @@
 
 .team-list {
   display: flex;
+  
 }
 
 .team-list-wrapper {
   justify-content: space-between;
   display: flex;
   align-items: flex-end;
+
 }
 
 .img-item {
@@ -96,6 +98,7 @@
 
   .section-h {
     margin-bottom: 0;
+    margin-right: auto;
   }
 
   .hero-list {
@@ -103,6 +106,7 @@
     width: 704px;
     display: flex;
     align-items: baseline;
+    
   }
 
   .hero-h {
