@@ -27,12 +27,6 @@
   margin-bottom: 24px;
 }
 
-.reviews-container .section-title {
-  font-size: 32px;
-  line-height: 1;
-  margin-bottom: 24px;
-}
-
 .reviews-hero .text {
   text-align: center;
   margin-bottom: 8px;
@@ -80,7 +74,9 @@
   .anastasia {
     display: flex;
   }
-
+  .reviews-hero {
+    min-width: 370px;
+  }
   .reviews-images {
     width: 370px;
   }
