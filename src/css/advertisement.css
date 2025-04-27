@@ -81,13 +81,14 @@
   }
   .advertisement .container {
     display: flex;
+    flex-direction: row;
   }
   .advertisement .section-title {
     max-width: 690px;
     margin-bottom: 0;
   }
   .contact-btn {
-    margin-left: auto;
+    margin-left: 140px;
   }
 }
 @media (min-width: 1280px) and (min-resolution: 2dppx) {
