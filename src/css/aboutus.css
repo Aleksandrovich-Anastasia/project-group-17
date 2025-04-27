@@ -1,6 +1,7 @@
 .about-us {
-  max-width: 375px;
+  min-width: 375px;
   height: 912px;
+  margin: 0 auto;
 }
 
 .about-us-container {
@@ -93,7 +94,7 @@
 
 @media screen and (min-width: 768px) {
   .about-us {
-    max-width: 768px;
+    min-width: 768px;
     height: 1064px;
     gap: 40px;
   }
@@ -142,14 +143,13 @@
 
 @media screen and (min-width: 1280px) {
   .about-us-container {
-    align-items: center;
     justify-content: space-between;
     flex-direction: row;
     gap: 40px;
   }
 
   .about-us {
-    max-width: 1280px;
+    min-width: 1280px;
     height: 532px;
   }
 
