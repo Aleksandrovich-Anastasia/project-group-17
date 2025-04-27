@@ -32,12 +32,14 @@
 
 .page-header .header-container {
   justify-content: space-between;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
   .page-header .header-container {
-    padding: 26px 32px;
+    padding-top: 26px;
+    padding-bottom: 26px;
   }
   .nav-logo {
     font-size: 20px;
@@ -51,7 +53,7 @@
 
 @media screen and (min-width: 1280px) {
   .page-header .header-container {
-    padding: 26px 64px;
+    /* padding: 26px 64px; */
   }
   .burger-btn {
     display: none;
