@@ -40,12 +40,14 @@
   color: rgba(251, 251, 251, 0.5);
 }
 .contact-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: 160px;
   height: 48px;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
   background-color: transparent;
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
   color: #fbfbfb;
@@ -54,6 +56,7 @@
 .contact-btn:hover,
 .contact-btn:focus {
   background-color: #fbfbfb;
+  color: #0c0c0c;
 }
 @media screen and (min-width: 768px) {
   .advertisement {
