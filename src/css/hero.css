@@ -37,14 +37,12 @@
 
 .team-list {
   display: flex;
-  
 }
 
 .team-list-wrapper {
   justify-content: space-between;
   display: flex;
   align-items: flex-end;
-
 }
 
 .img-item {
@@ -106,7 +104,6 @@
     width: 704px;
     display: flex;
     align-items: baseline;
-    
   }
 
   .hero-h {
@@ -132,6 +129,7 @@
     align-items: flex-end;
     width: 146px;
   }
+
   .team-list-wrapper {
     display: block;
   }
@@ -193,6 +191,7 @@
     align-items: flex-end;
     flex-basis: 33%;
   }
+
   .team-list {
     padding-bottom: 189px;
   }
@@ -205,6 +204,7 @@
     width: 60px;
     height: 60px;
   }
+  
   .a-scroll {
     display: flex;
     justify-content: flex-end;
