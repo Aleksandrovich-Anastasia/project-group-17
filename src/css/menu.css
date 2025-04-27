@@ -1,5 +1,8 @@
 .menu {
-  width: 100%;
+  max-width: 320px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   height: 100%;
   padding-top: 240px;
   padding-bottom: 40px;
@@ -12,8 +15,6 @@
   background-position: center;
   background-size: cover;
   position: fixed;
-  display: flex;
-  flex-direction: column;
   /* opacity: 0;
   pointer-events: none;
   visibility: hidden; */
@@ -109,6 +110,7 @@
 
 @media screen and (min-width: 768px) {
   .menu {
+    max-width: 768px;
     padding-top: 310px;
     padding-bottom: 50px;
     background-image: linear-gradient(
