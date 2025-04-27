@@ -34,7 +34,6 @@
 .advertisement .section-title {
   color: #fbfbfb;
   max-width: 279px;
-  margin-bottom: 28px;
 }
 .advertisement .title-part {
   color: rgba(251, 251, 251, 0.5);
@@ -66,9 +65,6 @@
   }
   .advertisement .section-title {
     max-width: 576px;
-    font-size: 48px;
-    line-height: 0.9;
-    letter-spacing: -0.02em;
     margin-bottom: 32px;
   }
 }
