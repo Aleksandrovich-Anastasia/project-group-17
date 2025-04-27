@@ -124,7 +124,6 @@
 
 @media screen and (min-width: 1280px) {
   .about-us-container {
-    justify-content: space-between;
     flex-direction: row;
     gap: 40px;
   }
@@ -148,7 +147,7 @@
 
   .premium {
     border-radius: 50px;
-    min-width: 530px;
+    width: 530px;
     height: 100%;
     background-color: rgba(12, 12, 12, 0.2);
   }
