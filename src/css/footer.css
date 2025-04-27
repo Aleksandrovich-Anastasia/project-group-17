@@ -178,6 +178,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .footer-container {
+    position: relative;
+  }
   .footer {
     margin-top: 40px;
   }

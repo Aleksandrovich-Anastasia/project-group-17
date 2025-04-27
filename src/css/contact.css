@@ -185,4 +185,7 @@ picture {
   .text {
     max-width: 460px;
   }
+  .container-img-contact-us .picture-img {
+    min-height: 556px;
+  }
 }
