@@ -19,15 +19,6 @@
   border-radius: 30px;
 }
 
-.us {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 1;
-  letter-spacing: -0.02em;
-  margin-bottom: 28px;
-  color: #0c0c0c;
-}
-
 .welcome {
   display: flex;
   width: 295px;
