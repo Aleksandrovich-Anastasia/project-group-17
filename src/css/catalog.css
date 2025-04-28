@@ -16,14 +16,13 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 20px;
-  margin-bottom: 40px;
 }
 .catalog-item {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
-  height: 364px;
+  width: 320px;
   background-color: #f3f3f3;
+  padding: 24px 28px;
 }
 
 .hidden-mob {
@@ -34,8 +33,6 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 42px;
-  margin-bottom: 28px;
   width: 208px;
   height: 226px;
 }
@@ -45,7 +42,6 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 8px;
-  margin-left: 28px;
 }
 .catalog-subtitle {
   font-size: 16px;
@@ -107,14 +103,13 @@
   }
   .catalog-item {
     width: 344px;
-    height: 414px;
+    padding: 24px 32px;
   }
   .catalog-img {
-    margin-top: 34px;
-    margin-bottom: 20px;
     width: 268px;
     height: 292px;
   }
+
   .catalog-subtitle {
     font-size: 20px;
     line-height: 1;
@@ -129,5 +124,10 @@
   }
   .cut-text {
     width: 245px;
+  }
+
+  .catalog-img {
+    width: 292px;
+    height: 292px;
   }
 }
