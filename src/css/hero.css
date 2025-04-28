@@ -105,6 +105,7 @@
   object-fit: cover;
 }
 
+/* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .section-h {
     margin-bottom: 0;
@@ -167,6 +168,7 @@
   .hero-background {
     border-radius: 50px;
     width: 704px;
+    position: relative;
   }
 
   .hero-img {
@@ -230,11 +232,6 @@
   .img-1 {
     position: relative;
     flex-shrink: 1;
-  }
-  .img-2 {
-    position: relative;
-    flex-shrink: 1;
-    left: -15px;
   }
 
   .img-3 {
