@@ -67,6 +67,7 @@
   width: 160px;
   height: 48px;
   background-color: #3350e9;
+  margin-top: 40px;
 }
 
 @media only screen and (min-width: 768px) {
