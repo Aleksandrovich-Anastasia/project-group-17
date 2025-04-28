@@ -185,7 +185,9 @@
     padding-left: 40px;
     padding-right: 40px;
   }
-
+  .footer-pilisy {
+    max-width: 204px;
+  }
   .footer-logo {
     font-size: 20px;
   }
@@ -273,9 +275,7 @@
   .footer-list {
     margin-bottom: 0;
   }
-  .footer-pilisy {
-    max-width: 204px;
-  }
+
   .footer-title {
     max-width: 523px;
     margin-top: -80px;
