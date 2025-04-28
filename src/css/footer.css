@@ -1,12 +1,18 @@
 .footer {
-  padding: 20px 0;
+  margin-top: 30px;
+  padding: 40px 40px 28px 40px;
+  background-color: #0c0c0c;
+  border-radius: 30px;
 }
+
 .footer-desc {
   text-align: center;
 }
+
 .footer-link {
   position: relative;
 }
+
 .footer-link::before {
   content: '';
   position: absolute;
@@ -18,4 +24,267 @@
   height: 24%;
   background-color: #41d1ff;
   transition: 200ms ease;
+}
+
+.footer-container {
+  text-align: center;
+}
+
+.footer-box {
+  margin-bottom: 92px;
+}
+
+.footer-logo {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.footer-contacts {
+  width: 18px;
+  height: 18px;
+  fill: #fbfbfb;
+  opacity: 80%;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+  opacity: 100%;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-phone {
+  display: block;
+  height: 44px;
+  width: 152px;
+  align-content: center;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 16px;
+  margin-bottom: 40px;
+}
+
+.fooret-tel {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 279px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.footer-navbox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.footer-link-navig {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+}
+
+.footer-navig {
+  max-width: 147px;
+}
+
+.footer-navig-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+  row-gap: 8px;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+  max-width: 83px;
+}
+
+.footer-subtext {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  max-width: 187px;
+  margin-bottom: 8px;
+}
+
+.footer-servis,
+.footer-police {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.footer-policy {
+  border-top: 1px solid #444;
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 187px;
+}
+
+.footer-pilisy {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-container {
+    position: relative;
+  }
+  .footer {
+    margin-top: 40px;
+  }
+  .footer-logo {
+    font-size: 20px;
+  }
+
+  .footer-box {
+    margin-bottom: 100px;
+  }
+
+  .footer-contacts {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-list {
+    gap: 10px;
+    margin-bottom: 86px;
+  }
+
+  .footer-link {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer-phone {
+    position: absolute;
+    height: 48px;
+    width: 160px;
+    top: 47px;
+    right: 47px;
+    margin-bottom: 0;
+  }
+
+  .fooret-tel {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .footer-title {
+    max-width: 524px;
+    font-size: 28px;
+    line-height: 1.14;
+  }
+
+  .footer-link-navig {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .footer-navig {
+    max-width: 400px;
+  }
+
+  .footer-navig-list {
+    gap: 19px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+    line-height: 1.29;
+    max-width: 162px;
+  }
+
+  .footer-subtext {
+    font-size: 14px;
+    line-height: 1.29;
+    max-width: 261px;
+  }
+
+  .footer-servis,
+  .footer-police {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .footer-policy {
+    padding-top: 28px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .footer {
+    margin-top: 50px;
+  }
+  .footer-list {
+    margin-bottom: 0;
+  }
+
+  .footer-title {
+    max-width: 523px;
+    margin-top: -80px;
+  }
+
+  .footer-box {
+    margin-bottom: 126px;
+  }
+
+  .footer-navig {
+    max-width: 505px;
+  }
+
+  .footer-navig-list {
+    gap: 40px;
+  }
 }
