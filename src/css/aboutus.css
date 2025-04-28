@@ -43,6 +43,7 @@
 }
 
 .vc {
+  display: block;
   padding: 15px 38px;
   width: 160px;
   height: 48px;
@@ -88,12 +89,6 @@
     width: 704px;
     min-height: 512px;
     padding: 80px 60px;
-    margin-bottom: 40px;
-  }
-
-  .us {
-    font-size: 48px;
-    line-height: 0.91667;
     margin-bottom: 40px;
   }
 
