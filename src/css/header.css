@@ -24,6 +24,7 @@
 
 .burger-btn {
   padding-right: 0;
+  padding-left: 0;
   border: none;
   background-color: transparent;
 }
@@ -57,11 +58,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .burger-btn {
-    display: none;
-  }
-
-  .nav-list-head {
+ .nav-list-head {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -132,6 +129,10 @@
   .soc-nav:hover,
   .soc-nav:focus {
     border: 1px solid rgba(51, 80, 233, 0.1);
+  }
+
+    .burger-btn {
+    display: none;
   }
 }
   
