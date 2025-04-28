@@ -20,6 +20,7 @@
 }
 
 .footer-container {
+  max-width: 335px;
   padding: 40px 28px 28px 28px;
   margin-top: 30px;
   background-color: #0c0c0c;
@@ -180,6 +181,7 @@
 
 @media only screen and (min-width: 768px) {
   .footer-container {
+    max-width: 704px;
     padding-left: 40px;
     padding-right: 40px;
   }
@@ -265,10 +267,15 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .footer-container {
+    max-width: 1216px;
+  }
   .footer-list {
     margin-bottom: 0;
   }
-
+  .footer-pilisy {
+    max-width: 204px;
+  }
   .footer-title {
     max-width: 523px;
     margin-top: -80px;
