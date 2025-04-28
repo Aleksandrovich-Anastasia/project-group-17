@@ -1,21 +1,16 @@
-.advertisement {
-  border-radius: 30px;
-  background-color: #383737;
-  padding: 60px 28px;
+.advertisement .container {
   max-width: 335px;
-  margin-left: auto;
-  margin-right: auto;
+  border-radius: 30px;
+  padding: 60px 28px;
+  background-color: #383737;
   background-image: url(/img/advertisement.img/advert-bi-mob.png);
   background-color: #0c0c0c;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.advertisement .container {
-  padding: 0;
-}
 @media (min-resolution: 2dppx) {
-  .advertisement {
+  .advertisement .container {
     background-image: url(/img/advertisement.img/advert-bi-mob@2x.png);
   }
 }
@@ -51,6 +46,8 @@
   line-height: 1.29;
   color: #fbfbfb;
   flex-shrink: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-btn:hover,
 .contact-btn:focus {
@@ -58,8 +55,8 @@
   color: #0c0c0c;
 }
 @media screen and (min-width: 768px) {
-  .advertisement {
-    max-width: 768px;
+  .advertisement .container {
+    max-width: 704px;
     padding: 80px 64px;
     background-image: url(/img/advertisement.img/advert-bi-tab.png);
   }
@@ -69,18 +66,17 @@
   }
 }
 @media (min-width: 768px) and (min-resolution: 2dppx) {
-  .advertisement {
+  .advertisement .container {
     background-image: url(/img/advertisement.img/advert-bi-tab@2x.png);
   }
 }
 @media screen and (min-width: 1280px) {
-  .advertisement {
+  .advertisement .container {
+    display: flex;
+    flex-direction: row;
     max-width: 1150px;
     padding: 80px;
     background-image: url(/img/advertisement.img/advert-bi-desk.png);
-  }
-  .advertisement .container {
-    display: flex;
   }
   .advertisement .section-title {
     max-width: 690px;
@@ -91,7 +87,7 @@
   }
 }
 @media (min-width: 1280px) and (min-resolution: 2dppx) {
-  .advertisement {
+  .advertisement .container {
     background-image: url(/img/advertisement.img/advert-bi-desk@2x.png);
   }
 }
