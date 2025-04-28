@@ -12,7 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" crossorigin href="/project-group-17/assets/index-DSOjC7ai.css">
+    <link rel="stylesheet" crossorigin href="/project-group-17/assets/index-D3-sI6PM.css">
   </head>
 
   <body>
@@ -70,13 +70,11 @@
       
     <button class="burger-btn" type="button">
           <svg class="burger-icon" width="34" height="34">
-            <use href="../img/sprite.svg#icon-burger"></use>
+            <use href="/project-group-17/assets/sprite-CcO3eEZt.svg#icon-burger"></use>
           </svg>
         </button>
   </div>
-</header>
-
-    <div class="menu is-open">
+  <div class="menu">
   <div class="container">
     <button type="button" class="menu-close">
       <svg class="menu-close-icon" width="20" height="20">
@@ -142,6 +140,8 @@
     </ul>
   </div>
 </div>
+
+</header>
 
     <main>
       <section class="hero section-general">
@@ -622,16 +622,7 @@
                     name="user-name"
                     placeholder="Name"
                     id="user-name"
-                  />
-                </div>
-                <div class="contact-us-field">
-                  <input
-                    type="tel"
-                    class="contact-us-input"
-                    name="user-tel"
-                    placeholder="Email"
-                    id="user-tel"
-                    pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                    aria-label="user-name"
                   />
                 </div>
                 <div class="contact-us-field">
@@ -639,9 +630,24 @@
                     type="email"
                     class="contact-us-input"
                     name="user-email"
-                    placeholder="+380"
-                    id="user-e-mail"
+                    placeholder="Email"
+                    id="user-email"
                     pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                    aria-label="user-email"
+                    
+                  />
+                </div>
+                <div class="contact-us-field">
+                  <input
+                    type="tel"
+                    class="contact-us-input"
+                    name="user-tel"
+                    placeholder="+380"
+                    id="user-tel"
+                    pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                    aria-label="user-tel"
+
+                    
                   />
                 </div>
 
@@ -652,30 +658,29 @@
                     placeholder="Comment"
                     class="contact-us-textarea"                    
                   ></textarea>
-                </div>                
+                </div> 
+                 <button class="btn-contact-us-send" type="submit">Send</button>               
               </form>
-              <button class="btn-contact-us-send" type="submit">Send</button>
+             
             </div>
 
             <div class="container-img-contact-us">
               
-              <picture class="picture-img">
+              <picture class="picture-img-contact-us">
+                 <source
+                  media="(min-width: 1280px)"
+                  srcset="/project-group-17/assets/contact-us-watch-pc-1x-Cud9mAsG.jpg 1x, /project-group-17/assets/contact-us-watch-pc-2x-BQUz9IgH.jpg 2x"            
+                />
+                
+                <source
+                  media="(min-width: 768px)"
+                  srcset="/project-group-17/assets/contact-us-watch-tab-1x-DP-HICnW.jpg 1x, /project-group-17/assets/contact-us-watch-tab-2x-BX24osuE.jpg 2x"             
+                />
                 <source
                   media="(max-width: 767px)"
-                  srcset="/project-group-17/assets/contact-us-watch-mobile-1x-BduldMlR.jpg 1x, /project-group-17/assets/contact-us-watch-mobile-2x-ChGUvixV.jpg 2x"
-                  src="/img/contact/contact-us-watch-mobile-1x"
-                />
-                <source
-                  media="(min-width: 768px) and (max-width: 1279px)"
-                  srcset="/project-group-17/assets/contact-us-watch-tab-1x-DP-HICnW.jpg 1x, /project-group-17/assets/contact-us-watch-tab-2x-BX24osuE.jpg 2x"
-                  src="/project-group-17/assets/contact-us-watch-tab-1x-DP-HICnW.jpg"
-                />
-                <source
-                  media="(min-width: 1280px)"
-                  srcset="/project-group-17/assets/contact-us-watch-pc-1x-Cud9mAsG.jpg 1x, /project-group-17/assets/contact-us-watch-pc-2x-BQUz9IgH.jpg 2x"
-                  src="/project-group-17/assets/contact-us-watch-pc-1x-Cud9mAsG.jpg"
-                />
-                <img src="/images/contact-us-watch-mobile-1x.jpg" alt="watch" />
+                  srcset="/project-group-17/assets/contact-us-watch-mobile-1x-BduldMlR.jpg 1x, /project-group-17/assets/contact-us-watch-mobile-2x-ChGUvixV.jpg 2x"                
+                /> 
+                <img src="/images/contact-us-watch-mobile-1x.jpg" alt="watch" />               
               </picture>
             </div>
           </div>
