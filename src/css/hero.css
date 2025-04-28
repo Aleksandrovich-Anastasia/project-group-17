@@ -107,10 +107,6 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
 
   .section-h {
     margin-bottom: 0;
@@ -176,6 +172,7 @@
   .hero-background {
     border-radius: 50px;
     width: 704px;
+    position: relative;
   }
 
   .hero-img {
@@ -186,11 +183,6 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 65px;
-  }
-
   .section-h {
     flex-direction: column;
     display: flex;
@@ -228,7 +220,7 @@
   .team-list {
     display: flex;
     padding-bottom: 189px;
-  
+
     width: 100%;
   }
   .team-list-wrapper {
@@ -245,11 +237,7 @@
     position: relative;
     flex-shrink: 1;
   }
-  .img-2 {
-    position: relative;
-    flex-shrink: 1;
-    left: -15px;
-  }
+  
 
   .img-3 {
     position: relative;
@@ -273,6 +261,7 @@
   .hero-background {
     border-radius: 50px;
     width: 1150px;
+    
   }
 
   .hero-background::before {
