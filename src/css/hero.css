@@ -89,15 +89,6 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
-  .section-general {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-
   .section-h {
     flex-direction: column;
     display: flex;
@@ -191,11 +182,6 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
-  .section-general {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-
   .section-h {
     flex-direction: column;
     display: flex;
