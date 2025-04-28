@@ -37,11 +37,6 @@
   color: rgba(12, 12, 12, 0.7);
 }
 
-.vc:hover,
-.vc:focus {
-  background: #1f3cd4;
-}
-
 .vc {
   display: block;
   padding: 15px 38px;
@@ -50,11 +45,15 @@
   border-radius: 16px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   text-align: center;
   color: #fbfbfb;
-  background: #3350e9;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #3350e9;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.vc:hover,
+.vc:focus {
+  background-color: #1f3cd4;
 }
 
 .premium {
