@@ -1,10 +1,9 @@
 .menu {
   max-width: 320px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  right: 0;
   height: 100%;
-  padding-top: 240px;
+  padding-top: 50px;
   padding-bottom: 40px;
   background-image: linear-gradient(
       rgba(12, 12, 12, 0.92),
@@ -15,6 +14,8 @@
   background-position: center;
   background-size: cover;
   position: fixed;
+  z-index: 1;
+  overflow-y: auto;
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
@@ -58,6 +59,11 @@
   fill: #fbfbfb;
 }
 
+.menu-nav {
+  margin-top: min(186px, 10vh);
+  margin-bottom: auto;
+}
+
 .menu-item:not(:last-child) {
   margin-bottom: 24px;
 }
@@ -70,6 +76,7 @@
   color: #fbfbfb;
   flex-direction: column;
   align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link::after {
@@ -117,7 +124,7 @@
 @media screen and (min-width: 768px) {
   .menu {
     max-width: 768px;
-    padding-top: 310px;
+    padding-top: 50px;
     padding-bottom: 50px;
     background-image: linear-gradient(
         rgba(12, 12, 12, 0.92),
