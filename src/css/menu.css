@@ -41,7 +41,7 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 100%;
+  min-width: 200px;
 }
 
 .menu-close {
@@ -60,7 +60,7 @@
 }
 
 .menu-nav {
-  margin-top: auto;
+  margin-top: min(186px, 10vh);
   margin-bottom: auto;
 }
 
@@ -141,6 +141,10 @@
         ),
         url(/img/watch/tablet-watch@2x-min.jpg);
     }
+  }
+
+  .container {
+    min-width: 330px;
   }
 
   .menu-close {
