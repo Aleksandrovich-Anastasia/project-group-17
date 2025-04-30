@@ -1,5 +1,4 @@
 .container-sale {
-  width: 100%;
   text-align: left;
 }
 
@@ -19,31 +18,19 @@
 .list-sale {
   display: flex;
   gap: 5px;
-  height: 80px;
 }
 
 .item-sale {
-  width: 80px;
-  height: 80px;
   background-color: #f3f3f3;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 20px;
   padding: 13px 14px;
 }
 
-.image-watch {
-  max-width: 52px;
-}
-
-.img-watch {
-  max-width: 235px;
-}
-
 .item-watch {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 335px;
   background-color: #f3f3f3;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 20px;
