@@ -1,0 +1,93 @@
+.advertisement-in {
+  max-width: 335px;
+  border-radius: 30px;
+  padding: 60px 28px;
+  background-color: #383737;
+  background-image: url(/img/advertisement.img/advert-bi-mob.png);
+  background-color: #0c0c0c;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-resolution: 2dppx) {
+  .advertisement-in {
+    background-image: url(/img/advertisement.img/advert-bi-mob@2x.png);
+  }
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advertisement .section-title {
+  color: #fbfbfb;
+  max-width: 279px;
+}
+.advertisement .title-part {
+  color: rgba(251, 251, 251, 0.5);
+}
+.contact-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 48px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  background-color: transparent;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fbfbfb;
+  flex-shrink: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact-btn:hover,
+.contact-btn:focus {
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+}
+@media screen and (min-width: 768px) {
+  .advertisement-in {
+    max-width: 704px;
+    padding: 80px 64px;
+    background-image: url(/img/advertisement.img/advert-bi-tab.png);
+  }
+  .advertisement .section-title {
+    max-width: 576px;
+    margin-bottom: 32px;
+  }
+}
+@media (min-width: 768px) and (min-resolution: 2dppx) {
+  .advertisement-in {
+    background-image: url(/img/advertisement.img/advert-bi-tab@2x.png);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .advertisement-in {
+    display: flex;
+    flex-direction: row;
+    max-width: 1150px;
+    padding: 80px;
+    background-image: url(/img/advertisement.img/advert-bi-desk.png);
+  }
+  .advertisement .section-title {
+    max-width: 690px;
+    margin-bottom: 0;
+  }
+  .contact-btn {
+    margin-left: auto;
+  }
+}
+@media (min-width: 1280px) and (min-resolution: 2dppx) {
+  .advertisement-in {
+    background-image: url(/img/advertisement.img/advert-bi-desk@2x.png);
+  }
+}

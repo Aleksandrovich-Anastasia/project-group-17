@@ -1,0 +1,130 @@
+.catalog-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+.catalog-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.catalog-item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 100%;
+  background-color: #f3f3f3;
+  padding: 24px 28px;
+}
+
+.hidden-mob {
+  display: none;
+}
+
+.catalog-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 208px;
+  height: 226px;
+}
+.catalog-position {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+.catalog-subtitle {
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+.catalog-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+
+.catalog-btn {
+  display: block;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+  border-radius: 16px;
+  border-color: transparent;
+  width: 160px;
+  height: 48px;
+  background-color: #3350e9;
+  margin-top: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog-title {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+  }
+
+  .hidden-mob {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .catalog-btn {
+    display: none;
+  }
+  .cut-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 225px;
+    white-space: nowrap;
+  }
+  .catalog-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 32px 16px;
+  }
+  .catalog-item {
+    width: 344px;
+    padding: 24px 32px;
+  }
+  .catalog-img {
+    width: 268px;
+    height: 292px;
+  }
+
+  .catalog-subtitle {
+    font-size: 20px;
+    line-height: 1;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .catalog-list {
+    gap: 32px 23px;
+  }
+  .catalog-item {
+    flex-basis: calc((100% - 46px) / 3);
+  }
+  .cut-text {
+    width: 245px;
+  }
+
+  .catalog-img {
+    width: 292px;
+    height: 292px;
+  }
+}

@@ -1,0 +1,41 @@
+[33m5870725[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mheader[m[33m)[m HEAD@{0}: rebase (abort): returning to refs/heads/header
+[33m5870725[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mheader[m[33m)[m HEAD@{1}: rebase (abort): returning to refs/heads/header
+[33m2c3266e[m[33m ([m[1;31morigin/header[m[33m)[m HEAD@{2}: reset: moving to HEAD
+[33m2c3266e[m[33m ([m[1;31morigin/header[m[33m)[m HEAD@{3}: checkout: moving from header to header
+[33m2c3266e[m[33m ([m[1;31morigin/header[m[33m)[m HEAD@{4}: checkout: moving from header to header
+[33m2c3266e[m[33m ([m[1;31morigin/header[m[33m)[m HEAD@{5}: commit: add header
+[33m5870725[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mheader[m[33m)[m HEAD@{6}: checkout: moving from header to header
+[33m5870725[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mheader[m[33m)[m HEAD@{7}: checkout: moving from cd28ffba4b110035549bb1a981844b09958bb192 to header
+[33mcd28ffb[m HEAD@{8}: commit: add header html css
+[33m5e18f5f[m HEAD@{9}: commit: add header add sprite
+[33me12f778[m HEAD@{10}: pull --rebase origin main (pick): add index file
+[33mf034f4c[m HEAD@{11}: pull --rebase origin main (pick): add index file
+[33m852c17a[m HEAD@{12}: pull --rebase origin main (start): checkout cb64e8d5a04c37dc9803d733976001e8a8168a0b
+[33m5870725[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mheader[m[33m)[m HEAD@{13}: commit (merge): add
+[33m852c17a[m HEAD@{14}: commit: add sprite
+[33mded190e[m HEAD@{15}: pull --rebase origin main (finish): returning to refs/heads/header
+[33mded190e[m HEAD@{16}: pull --rebase origin main (pick): add sprite
+[33m06d5621[m HEAD@{17}: pull --rebase origin main (pick): add index file
+[33m54c74f4[m HEAD@{18}: pull --rebase origin main (pick): add index file
+[33md31bdbe[m HEAD@{19}: pull --rebase origin main (pick): add index file
+[33m066c3d6[m HEAD@{20}: pull --rebase origin main (pick): add index file
+[33m018c751[m HEAD@{21}: pull --rebase origin main (pick): add index file
+[33mb54dbf1[m HEAD@{22}: pull --rebase origin main (pick): add index file
+[33mcb64e8d[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{23}: pull --rebase origin main (start): checkout cb64e8d5a04c37dc9803d733976001e8a8168a0b
+[33mf0f9b22[m HEAD@{24}: commit: add sprite
+[33mccf6d32[m HEAD@{25}: pull --rebase origin main (finish): returning to refs/heads/header
+[33mccf6d32[m HEAD@{26}: pull --rebase origin main (pick): add index file
+[33ma6e6a5d[m HEAD@{27}: pull --rebase origin main (pick): add index file
+[33m1167e70[m HEAD@{28}: pull --rebase origin main (pick): add index file
+[33mdb23626[m HEAD@{29}: pull --rebase origin main (pick): add index file
+[33me9b0397[m HEAD@{30}: pull --rebase origin main (pick): add index file
+[33m8cd3742[m HEAD@{31}: pull --rebase origin main (pick): add index file
+[33m85b7337[m HEAD@{32}: pull --rebase origin main (start): checkout 85b7337dcff9fa242d7cc7241cb9113d153d7536
+[33m79a51e6[m HEAD@{33}: commit: add index file
+[33m916184d[m HEAD@{34}: commit: add index file
+[33m49c0ff1[m HEAD@{35}: commit: add index file
+[33m12bb9f3[m HEAD@{36}: commit: add index file
+[33m3a5c1ee[m HEAD@{37}: commit: add index file
+[33m33da719[m HEAD@{38}: commit: add index file
+[33mbc9ae09[m[33m ([m[1;32mmain[m[33m)[m HEAD@{39}: checkout: moving from main to header
+[33mbc9ae09[m[33m ([m[1;32mmain[m[33m)[m HEAD@{40}: clone: from github.com:Aleksandrovich-Anastasia/project-group-17.git
