@@ -107,7 +107,6 @@
 }
 
 .modifications {
-    width: 297px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -119,8 +118,6 @@
     justify-content: left;
     flex-wrap: wrap;
     gap: 8px;
-    width: 279px;
-    height: 112px;
 }
 
 .tag {
