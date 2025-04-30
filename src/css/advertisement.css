@@ -1,4 +1,5 @@
-.advertisement-in {
+.advertisement .container {
+  max-width: 335px;
   border-radius: 30px;
   padding: 60px 28px;
   background-color: #383737;
@@ -9,7 +10,7 @@
   background-size: cover;
 }
 @media (min-resolution: 2dppx) {
-  .advertisement-in {
+  .advertisement .container {
     background-image: url(/img/advertisement.img/advert-bi-mob@2x.png);
   }
 }
@@ -45,8 +46,8 @@
   line-height: 1.29;
   color: #fbfbfb;
   flex-shrink: 0;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-btn:hover,
 .contact-btn:focus {
@@ -54,7 +55,7 @@
   color: #0c0c0c;
 }
 @media screen and (min-width: 768px) {
-  .advertisement-in {
+  .advertisement .container {
     max-width: 704px;
     padding: 80px 64px;
     background-image: url(/img/advertisement.img/advert-bi-tab.png);
@@ -65,12 +66,12 @@
   }
 }
 @media (min-width: 768px) and (min-resolution: 2dppx) {
-  .advertisement-in {
+  .advertisement .container {
     background-image: url(/img/advertisement.img/advert-bi-tab@2x.png);
   }
 }
 @media screen and (min-width: 1280px) {
-  .advertisement-in {
+  .advertisement .container {
     display: flex;
     flex-direction: row;
     max-width: 1150px;
@@ -86,7 +87,7 @@
   }
 }
 @media (min-width: 1280px) and (min-resolution: 2dppx) {
-  .advertisement-in {
+  .advertisement .container {
     background-image: url(/img/advertisement.img/advert-bi-desk@2x.png);
   }
 }
