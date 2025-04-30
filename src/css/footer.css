@@ -281,6 +281,9 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .footer .container {
+    padding: 0;
+  }
   .footer-list {
     margin-bottom: 0;
   }
