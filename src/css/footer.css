@@ -22,7 +22,6 @@
 .footer-container {
   max-width: 335px;
   padding: 40px 28px 28px 28px;
-  margin-top: 30px;
   background-color: #0c0c0c;
   border-radius: 30px;
   text-align: center;
@@ -271,6 +270,8 @@
 @media only screen and (min-width: 1280px) {
   .footer-container {
     max-width: 1216px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
   .footer-list {
     margin-bottom: 0;
